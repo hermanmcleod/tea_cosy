@@ -1,0 +1,50 @@
+body {
+	background-color: black;
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	opacity: 0.9;
+	text-align: center;
+	border: 1px solid white;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 69px;
+	border-bottom: 1px solid seashell;
+}
+
+.logo {
+	margin-left: 10px;
+}
+
+header a:link {
+	margin: 5px;
+	text-decoration: underline;
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	opacity: 0.9;
+}
+
+#mission {
+	background-image: url(../resources/img-mission-background.jpg);
+	width: 1200px;
+	height: 700px;
+	background-position: center;
+	display: flex;
+	align-items: center;
+}
+
+.main {
+	margin-left: 60px;
+}
+
+#missiontext {
+	background-color: black;
+	height: 150px;
+	width: 100%;
+	align-content: center;
+}
