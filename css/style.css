@@ -1,3 +1,7 @@
+html {
+	border: 1px solid white;
+}
+
 body {
 	background-color: black;
 	font-family: Helvetica;
@@ -5,7 +9,6 @@ body {
 	color: seashell;
 	opacity: 0.9;
 	text-align: center;
-	border: 1px solid white;
 }
 
 header {
@@ -31,7 +34,6 @@ header a:link {
 
 #mission {
 	background-image: url(../resources/img-mission-background.jpg);
-	width: 1200px;
 	height: 700px;
 	background-position: center;
 	display: flex;
@@ -40,6 +42,7 @@ header a:link {
 
 .main {
 	margin-left: 60px;
+	width: 1200px;
 }
 
 #missiontext {
@@ -47,4 +50,33 @@ header a:link {
 	height: 150px;
 	width: 100%;
 	align-content: center;
+}
+
+#featured {
+	display: flex;
+	justify-content: center;
+}
+
+#featured_container {
+	width: 1000px;
+}
+
+#featured_text {
+}
+
+#featured_images img {
+	height: 200px;
+	width: 300px;
+	margin: 10px;
+}
+
+#featured_images {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h4 {
+	margin: 0px;
+	padding: 0px;
 }
