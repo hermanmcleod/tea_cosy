@@ -2,7 +2,6 @@
 html {
 	border: 1px solid white;
 	/*!!!!!!!!remember to add the fixed header!!!!!!!!!!
-	!!!!!!rembember to more "locations" to bottom of div...15px from address box
 	!!!!!!!remember to remove borders!!!!!!*/
 }
 
@@ -20,7 +19,10 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	height: 69px;
+	position: fixed;
 	border-bottom: 1px solid seashell;
+	z-index: 1000;
+	width: 100%;
 }
 
 .logo {
@@ -47,6 +49,7 @@ header a:link {
 .main {
 	margin-left: 60px;
 	width: 1200px;
+	
 }
 
 #missiontext {
@@ -106,13 +109,13 @@ h4 {
 }
 
 #locations_title h2 {
-	align-self: text-bottom;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 }
 
 #address_container {
 	display: inline-flex;
 	justify-content: center;
-
 }
 
 .address {
@@ -123,6 +126,7 @@ h4 {
 	border: 1px solid white;
 	display: inline-block;
 	opacity: 1;
+	margin-top: 15px;
 } 
 
 #contact {
@@ -132,6 +136,10 @@ h4 {
 footer {
 	text-align: left;
 	margin-left: 20px;
+}
+
+h2 {
+	border: 1px solid white;
 }
 
 	/*
