@@ -1,10 +1,4 @@
 
-html {
-	border: 1px solid white;
-	/*!!!!!!!!remember to add the fixed header!!!!!!!!!!
-	!!!!!!!remember to remove borders!!!!!!*/
-}
-
 body {
 	background-color: black;
 	font-family: Helvetica;
@@ -12,6 +6,7 @@ body {
 	color: seashell;
 	opacity: 0.9;
 	text-align: center;
+	margin: 0;
 }
 
 header {
@@ -23,10 +18,13 @@ header {
 	border-bottom: 1px solid seashell;
 	z-index: 1000;
 	width: 100%;
+	background: inherit;
+
 }
 
 .logo {
 	margin-left: 10px;
+	max-height: 69px;
 }
 
 header a:link {
@@ -36,6 +34,10 @@ header a:link {
 	font-size: 22px;
 	color: seashell;
 	opacity: 0.9;
+}
+
+header a:visited {
+	color:seashell;
 }
 
 #mission {
@@ -49,7 +51,8 @@ header a:link {
 .main {
 	margin-left: 60px;
 	width: 1200px;
-	
+	top: 70px;
+	position: relative;
 }
 
 #missiontext {
@@ -69,9 +72,6 @@ header a:link {
 	margin: 60px;
 }
 
-#featured_text {
-}
-
 #featured_images img {
 	height: 200px;
 	width: 300px;
@@ -89,10 +89,7 @@ h4 {
 	padding: 0px;
 }
 
-
-
 #locations {
-	border: 1px solid white;
 	background-image: url(../resources/img-locations-background.jpg);
 	height: 500px;
 	display: flex; 
@@ -100,12 +97,7 @@ h4 {
 }
 
 #locations_title {
-	border: 1px solid white;
 	width: 100%;
-
-	/*
-	display: flex;
-	justify-content: center;*/
 }
 
 #locations_title h2 {
@@ -123,7 +115,6 @@ h4 {
 	margin: 20px;
 	width: 300px;
 	padding: 20px;
-	border: 1px solid white;
 	display: inline-block;
 	opacity: 1;
 	margin-top: 15px;
@@ -137,30 +128,3 @@ footer {
 	text-align: left;
 	margin-left: 20px;
 }
-
-h2 {
-	border: 1px solid white;
-}
-
-	/*
-	justify-content: center;
-	flex-direction: column;
-}
-
-.address {
-	background-color: black;
-	margin: 20px;
-	width: 300px;
-	padding: 20px;
-}
-/*
-#locations_text {
-	display: inline-flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}*/
-/*
-.locations_container {
-	align-self: center;
-
-}*/
